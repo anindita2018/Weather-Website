@@ -1,0 +1,49 @@
+body{
+    color : rgb(45, 30, 87);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.maincontent{
+    flex-grow: 1;
+}
+
+header a{
+    color : #721717;
+    text-decoration: none;
+    
+}
+
+header h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+}
+.portrait{
+    width: 12em;
+    height: 12em;
+    padding: 1em;
+}
+
+
+footer{
+    color : #584646;
+    border-top : 1px solid blue;
+    text-align: right;
+}
+
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button{
+    padding: 8px;
+    color: white;
+    background: #888888;
+    cursor: pointer;
+}
