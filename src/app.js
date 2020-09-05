@@ -9,6 +9,8 @@ const app = express();
 //setting port for the project to run on Heroku
 const port = process.env.PORT || 3000;
 
+console.log("Annie's Tutul 1st change");
+
 //Define paths for Express config
 const publicDirPath = path.join(__dirname,'../public');
 const viewsPath = path.join(__dirname, 'templates/views');
